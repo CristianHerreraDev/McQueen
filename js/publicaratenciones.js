@@ -41,7 +41,7 @@ form.addEventListener("submit", e=>{
         entrar = true
     }
 
-    if(imagen.value.trim().length == 0 || imagen.value.length <10){
+    if(imagen.value.trim().length == 0 || imagen.value.length <8){
         warnings += `La imagen no es valida, procura no rellenar con espacios en blanco e ingresar un link de minimo 8 caracteres<br>`
         entrar = true
     }
